@@ -10,8 +10,8 @@ export default function Log()
    
     <div className='log_row1_out'>
     <div className="log_row1">
-      <label>Login</label>
-    </div>
+      <div className='log_label'><label>Login</label></div>
+    
     <div className='log_row2'>
       <label>Matrimony Id/Mobile No./E-mail</label>
       <input type='text'></input>
@@ -25,6 +25,7 @@ export default function Log()
       <button onClick={handleclick1}>LOGIN</button>
       </div>
       <label>Forgot Password? | Login Via OTP</label>
+    </div>
     </div>
     </div>
   )

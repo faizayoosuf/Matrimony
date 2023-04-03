@@ -6,35 +6,65 @@ body
     vertical-align: top;
     width: 100%;
     background:url( C:\Users\faiza\OneDrive\Documents\GitHub\Matrimony\frontend\src\images\searchimg.jpg );
-}
-.search_back_row1 img{
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+/*.search_back_row1 img{
     margin-top: 150px;
     margin-bottom:150px;
-    }
+    }*/
     .search_row1{
-        
+       margin: 20px 15%;
+       position: absolute;
+      width: 70%;
         align-items: center;
-        /*background-color: #fff;*/
+        background-color: #fff;
         border-radius: 10px;
         display: flex;
         justify-content: space-evenly;
         padding: 10px;
         
     }
+    .search_back_rows{
+      margin: 50px 15%;
+      position: absolute;
+      top: 0;
+      width: 70%;
+      
+      }
+    .search_row1_image img{
+      /*opacity: 1;*/
+      width: 45px;
+    }
+    .search_bar_row1{
+     
+    align-items: center;
+    /*background-color: #fff;*/
+    display: flex;
+    justify-content: center;
+   margin-top: 100px;
+  }
     .search_bar_row1  input
     {
-      padding: 15px 300px;
-        margin-bottom: 20px;
-        margin-top: 10px;
+     padding: 20px 300px;
+       margin-bottom: 20px;
+        margin-top: 20px;
         border: none;
-        background-color: azure;
+    outline: none;
+    width: 100%;
+        border: none;
+        background-color: rgb(255, 240, 240);
+        
     }
     .search_bar_row1 button{
       background-color: brown;  
-      padding: 17px 17px;
+      padding: 20px 20px;
       border: none;
       color: aliceblue;
     }
+    
     .search_row2 img{
       border-radius: 10px;
       border-bottom-left-radius: 10px;
@@ -59,7 +89,6 @@ body
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       display: flex;
       flex-direction: column;
-      
       justify-content: space-around;
     }
     .search_details_col2{
@@ -78,6 +107,6 @@ body
       background-color: #f0f0f0;
       display: flex;
       flex-direction: column;
-      height: 150vh;
-      padding-top: 70px;
-        }
+     /* height: 150vh;*/
+      padding-top: 50px;
+     }
