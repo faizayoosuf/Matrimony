@@ -62,9 +62,13 @@ padding-right: 10%;
 margin-bottom: 5px;
 }
 .homepage_row2
-{
-  background-color: blueviolet;
+{ background-image: url(C:\Users\faiza\OneDrive\Documents\GitHub\Matrimony\frontend\src\images\home_bg.webp);
+  /*background-color: blueviolet;*/
   padding:100px 20%;
+  background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: no-repeat;
+
 }
 .homepage_row2_inner{
   background-color: rgba(107, 41, 41, 0.097);
