@@ -8,6 +8,7 @@ body
   flex-direction: row;
   width: 100%;
   margin-top: 20px;
+  /*position: fixed;*/
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .homepage_row1_left{
@@ -48,6 +49,7 @@ padding-right: 10%;
   flex-direction: row;
   margin-left: 4%;
   width: 100%;
+  padding-top: 60px;
 }
 .homepage_row3_text{
   display: flex;
